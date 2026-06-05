@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d7c0aa79642e74b8a833dbc929cd72, type: 3}
+  m_Name: GrandfatherDialogue_Picture
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - Eravamo giovani, pieni di speranza.
+    - Pensavamo che avremmo cambiato il mondo con un fucile e un paio di scarponi
+      consumati.
+    - Alcuni di loro non sono mai tornati.
+    - Ricordo Mario, quello con il fazzoletto al collo. Mi salvo la vita spingendomi
+      in un fosso quando arrivarono i tedeschi.
+    - Lui invece... lo presero.
+    - "Non l'ho pi\xF9 rivisto"
+    - "Questa foto \xE8 tutto quello che mi resta di loro."
+    lineId: nonno_1
+    questions:
+    - question: C'era qualcuno con cui litigavi?
+      responseId: nonno_response_1
+    - question: Nonno, ma come facevate a vedere i nemici da lontano?
+      responseId: nonno_response_2
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - Certo, ma alla fine eravamo una squadra.
+    - Le discussioni non contavano quando si trattava di sopravvivere.
+    lineId: nonno_response_1
+    questions: []
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - Usavamo un binocolo per osservarli da lontano.
+    - Senza quello, saremmo stati ciechi.
+    - "Vai a prenderlo \xE8 dentro il capannone in giardino, poi mettino nella scatola,"
+    - ma prima devi prendere la chiave sul comodino di camera mia.
+    lineId: nonno_response_2
+    questions: []

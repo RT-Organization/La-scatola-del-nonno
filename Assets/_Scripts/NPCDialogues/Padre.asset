@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d7c0aa79642e74b8a833dbc929cd72, type: 3}
+  m_Name: Padre
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - character:
+      name: Batman
+      icon: {fileID: 0}
+    lines:
+    - Hey Lorenzo, stai attento ci possono essere cose pericolose qui
+    lineId: batman_1
+    questions:
+    - question: "Pap\xE0, che fai qui?"
+      responseId: batman_response_1
+    - question: Hai trovato qualcosa di interessante?
+      responseId: batman_response_2
+    - question: Tu sai cos'ha fatto davvero il nonno in guerra?
+      responseId: batman_response_3
+  - character:
+      name: Batman
+      icon: {fileID: 0}
+    lines:
+    - "Sto cercando di mettere un p\xF2 d'ordine."
+    - Qui dentro ci sono anni di roba acucmulata...
+    - e tanti ricordi.
+    lineId: batman_response_1
+    questions: []
+  - character:
+      name: Batman
+      icon: {fileID: 0}
+    lines:
+    - Solo vecchie lettere, foto...
+    - e qualche peso che il nonno si porta dietro da troppo tempo
+    lineId: batman_response_2
+    questions: []
+  - character:
+      name: Batman
+      icon: {fileID: 0}
+    lines:
+    - So abbastanza per capire che non era come nei tuoi libri d'avventura
+    - La guerra non ti rende un eroe, Lorenzo.
+    - Ti cambia, ti toglie pezzi di te...
+    - e il nonno ha lasciato molti pezzi su quel campo di battaglia
+    lineId: batman_response_3
+    questions: []

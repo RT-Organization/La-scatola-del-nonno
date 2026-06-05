@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d7c0aa79642e74b8a833dbc929cd72, type: 3}
+  m_Name: GrandfatherDialogue_Gun
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - "Non serve pi\xF9 a niente, \xE8 scarica da decenni."
+    - Ma quella notte... quella notte non lo era.
+    - Mi trovavo con un comapgno in una casa abbandonata, nascosti mentre fuori si
+      sentivano i passi dei nemici.
+    - Avevo la mano sul grilletto, il dito pronto.
+    - 'Il mio amico mi disse: ''Se ci trovano, lasciali sparare per primi''.'
+    - "Non capii perch\xE8."
+    - Poi mi resi conto che lui non voleva portarsi dietro il peso di aver tolto
+      una vita.
+    - "Quando ci scoprirono, lui alz\xF2 le mani."
+    - io... io no.
+    - "Da allora non ho pi\xF9 toccato un'arma."
+    lineId: nonno_1
+    questions:
+    - question: E ora, cosa pensi quando la guardi?
+      responseId: nonno_response_1
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - Penso a quanto ero giovane e spaventato.
+    - E a quanto sono fortunato ad essere sopravvissuto.
+    lineId: nonno_response_1
+    questions: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d7c0aa79642e74b8a833dbc929cd72, type: 3}
+  m_Name: ZiaDialogue
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - character:
+      name: Zia
+      icon: {fileID: 0}
+    lines:
+    - Ciao Lorenzo, hai bisogno di qualcosa?
+    lineId: zia_1
+    questions:
+    - question: Che fai zia?
+      responseId: zia_response_1
+    - question: "Com'era nonno quando \xE8 tornato dalla guerra?"
+      responseId: zia_response_2
+  - character:
+      name: Zia
+      icon: {fileID: 0}
+    lines:
+    - "Preparo da mangiare, che domande! Se hai fame, per\xF2, devi aspettare."
+    lineId: zia_response_1
+    questions: []
+  - character:
+      name: Zia
+      icon: {fileID: 0}
+    lines:
+    - Diverso, Lorenzo.
+    - "Prima rideva di pi\xF9, parlava di pi\xF9..."
+    - "Quando \xE8 tornato, invece, sembrava sempre stanco. Non voleva raccontare
+      niente, come se volesse dimenticare."
+    - Ma certe cose non si dimenticano, vero?
+    lineId: zia_response_2
+    questions: []

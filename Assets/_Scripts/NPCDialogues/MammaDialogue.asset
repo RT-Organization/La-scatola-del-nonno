@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d7c0aa79642e74b8a833dbc929cd72, type: 3}
+  m_Name: MammaDialogue
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - character:
+      name: Mamma
+      icon: {fileID: 0}
+    lines:
+    - Stai attento alle api.
+    lineId: mamma_1
+    questions:
+    - question: "Perch\xE8 stai sempre a sistemare le piante?"
+      responseId: mamma_response_1
+    - question: Il nonno ti parlava mai della guerra?
+      responseId: mamma_response_2
+    - question: Nonno era un oreo?
+      responseId: mamma_response_3
+  - character:
+      name: Mamma
+      icon: {fileID: 0}
+    lines:
+    - "Perch\xE8 se non le curo, diventano selvatiche"
+    - "Un p\xF2 come te quando giochi in soffitta e lasci tutto in disordine!"
+    lineId: mamma_response_1
+    questions: []
+  - character:
+      name: Mamma
+      icon: {fileID: 0}
+    lines:
+    - No, mai. Quando gli chiedevo qualcosa, diceva solo che era tutto finito e che
+      non aveva senso parlarne.
+    - Ma lo sentivo la notte...
+    - a volte si svegliava di colpo, come se avesse fatto un brutto sogno.
+    - Solo che quei sogni erano veri
+    - "Sai se gli chiedi qualcosa oggi, magari ti risponder\xE0."
+    - "E' pi\xF9 vecchio, pi\xF9 stanco..."
+    - "e certe cose pesano di pi\xF9 quando si \xE8 soli"
+    - "Vai da lui, magari gli far\xE0 bene parlare con te"
+    lineId: mamma_response_2
+    questions: []
+  - character:
+      name: Mamma
+      icon: {fileID: 0}
+    lines:
+    - Lorenzo... gli eroi nei libri fanno sempre le scelte giuste.
+    - Ma nelal vita vera, certe volte non sai nemmeno quale sia la scelta giusta.
+    - Il nonno ha fatto quello che ha potuto per tornare a casa
+    - Se questo lo rende un eroe... dipende da cosa pensi sia un eroe
+    - "Ma so una cosa: lui non si \xE8 mai considerato uno."
+    lineId: mamma_response_3
+    questions: []

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d7c0aa79642e74b8a833dbc929cd72, type: 3}
+  m_Name: GrandfatherDialogue_Binoculars
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - Sai con questo binocolo ho visto cose che avrei preferito non vedere.
+    - 'Una volta. scrutando il fiume di notte: una pattuglia nemica stava attraversando
+      il ponte.'
+    - Avremmo potuto fermarli... ma c'erano dei civili con loro.
+    - Non ho dato l'ordine di sparare.
+    - "Il giorno dopo scoprimmo che quei soldati avevano saccheggiato un villaggio
+      poco pi\xF9 avanti."
+    - "A volte scegliere di non agire \xE8 pi\xF9 difficile che combattere"
+    lineId: nonno_1
+    questions:
+    - question: Nonno, come hai imparato a usare il binocolo?
+      responseId: nonno_response_1
+    - question: E dopo la guerra, l'hai mai usato di nuovo?
+      responseId: nonno_response_2
+    - question: Nonno, ma se vedevi i nemici da lontano, come facevate a difendervi?
+      responseId: nonno_response_3
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - L'ho preso da un soldato nemico.
+    - All'inizio non sapevo come funzionava, ma ho imparato in fretta.
+    - Una volta ho visto un tramonto sul fiume. Per un attimo, ho dimenticato la
+      guerra.
+    lineId: nonno_response_1
+    questions: []
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - No, Lorenzo.
+    - Quel binocolo mi ricorda troppe cose che preferirei dimenticare.
+    lineId: nonno_response_2
+    questions: []
+  - character:
+      name: Nonno
+      icon: {fileID: 0}
+    lines:
+    - Avevamo una pistola, Lorenzo.
+    - "Non l'abbiamo usata spesso, ma quando serviva... beh, era l\xEC."
+    - "Se la trovi, te la mostro e ti racconto com'\xE8 andata l'ultima volta."
+    - Dovrebbe essere in soffitta, metti anche quella nella scatola
+    lineId: nonno_response_3
+    questions: []
