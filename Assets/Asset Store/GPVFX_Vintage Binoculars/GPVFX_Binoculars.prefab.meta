@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: aad4642f97fb545e19ddf2a5c0599eb3
+timeCreated: 1503264507
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98379
+  packageName: Vintage Binoculars
+  packageVersion: 1.0
+  assetPath: Assets/GPVFX_Vintage Binoculars/GPVFX_Binoculars.prefab
+  uploadId: 196889

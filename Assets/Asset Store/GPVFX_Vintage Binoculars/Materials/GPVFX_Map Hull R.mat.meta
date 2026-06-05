@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bebd164553e24444985edecf15c648de
+timeCreated: 1503240813
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98379
+  packageName: Vintage Binoculars
+  packageVersion: 1.0
+  assetPath: Assets/GPVFX_Vintage Binoculars/Materials/GPVFX_Map Hull R.mat
+  uploadId: 196889
